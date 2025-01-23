@@ -7,7 +7,6 @@
 #include <QJsonObject>
 #include "mainwindow.h"
 #include "studentpannel.h"
-#include "studentstatus.h"
 #include "coursemanagementform.h"
 #include "addcourseform.h"
 #include "addmasterform.h"
@@ -62,7 +61,6 @@ public:
     ProfessorMainWindow* getmainprof(){return profmain;}
     ProfessorCourseListForm* getprofcrslist(){return profcrsform;}
     ProfessorInfoForm* getprofinfo(){return profinfo;}
-    studentstatus *getstdstat(){return stdstat;}
     void init();
     QString stdid;
     QString profName;
@@ -70,7 +68,6 @@ public:
 private:
     MainWindow * loginPage;
     studentpannel *stdpannel;
-    studentstatus *stdstat;
     CourseManagementForm *master;
     AddCourseForm *addcourseform;
     AddMasterForm *addmasterform;

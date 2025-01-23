@@ -2,6 +2,7 @@
 #define STUDENTPANNEL_H
 
 #include <QWidget>
+#include "studentstatus.h"
 
 namespace Ui {
 class studentpannel;
@@ -16,6 +17,7 @@ public:
     ~studentpannel();
     void showId();
     void stdloadinfo();
+    studentstatus* getstat(){return stdstat;}
 
 private slots:
     void on_statsbutton_2_clicked();
@@ -27,6 +29,7 @@ private:
         this->showId();
     }
     Ui::studentpannel *ui;
+    studentstatus *stdstat;
 };
 
 #endif // STUDENTPANNEL_H
