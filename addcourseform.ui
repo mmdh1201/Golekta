@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AddCourseForm</class>
+ <widget class="QWidget" name="AddCourseForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Add Course</string>
+  </property>
+  <widget class="QScrollArea" name="scrollArea">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>401</width>
+     <height>601</height>
+    </rect>
+   </property>
+   <property name="widgetResizable">
+    <bool>true</bool>
+   </property>
+   <widget class="QWidget" name="scrollAreaWidgetContents">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>399</width>
+      <height>599</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QLineEdit" name="courseNameLineEdit">
+       <property name="placeholderText">
+        <string>نام درس</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="unitsLineEdit">
+       <property name="placeholderText">
+        <string>تعداد واحد</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="courseNumberLineEdit">
+       <property name="placeholderText">
+        <string>شماره درس</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="courseGroupLineEdit">
+       <property name="placeholderText">
+        <string>شماره گروه درس</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="courseCapacityLineEdit">
+       <property name="placeholderText">
+        <string>ظرفیت کلاس</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="courseLocationLineEdit">
+       <property name="placeholderText">
+        <string>محل برگزاری</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="courseDaysLineEdit">
+       <property name="placeholderText">
+        <string>روز های برگزاری(مثال : شنبه , دوشنبه)</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="courseTimeLineEdit">
+       <property name="placeholderText">
+        <string>ساعت برگزاری</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="courseFinalDateLineEdit">
+       <property name="placeholderText">
+        <string>تاریخ و ساعت امتحان پایانترم</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="courseMasterComboBox">
+       <property name="placeholderText">
+        <string>استاد درس</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="submitButton">
+       <property name="text">
+        <string>ذخیره</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

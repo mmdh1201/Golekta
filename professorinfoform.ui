@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ProfessorInfoForm</class>
+ <widget class="QWidget" name="ProfessorInfoForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>نمایش اطلاعات</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLabel" name="nameLabel">
+     <property name="text">
+      <string>نام:</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="facultyLabel">
+     <property name="text">
+      <string>دانشکده:</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="emailLabel">
+     <property name="text">
+      <string>ایمیل:</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="officePhoneLabel">
+     <property name="text">
+      <string>تلفن دفتر:</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="officeNumberLabel">
+     <property name="text">
+      <string>شماره دفتر:</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

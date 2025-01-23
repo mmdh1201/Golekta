@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CourseManagementForm</class>
+ <widget class="QWidget" name="CourseManagementForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>469</width>
+    <height>456</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Course Management</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QPushButton" name="participantsButton">
+     <property name="text">
+      <string>مشاهده لیست شرکت‌کنندگان</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="contentButton">
+     <property name="text">
+      <string>ارائه محتوای آموزشی</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="examButton">
+     <property name="text">
+      <string>برگزاری آزمون</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="assignmentButton">
+     <property name="text">
+      <string>تکلیف</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="gradesButton">
+     <property name="text">
+      <string>ثبت نمره</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
