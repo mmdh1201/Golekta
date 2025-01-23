@@ -10,7 +10,6 @@ studentpannel::studentpannel(QWidget *parent)
 {
     ui->setupUi(this);
     ui->datelabel->setText(QDate::currentDate().toString());
-        stdloadinfo();
 }
 
 
@@ -25,8 +24,7 @@ void studentpannel::stdloadinfo(){
     if (socket.waitForConnected(3000)) {
         QJsonObject request;
         request["type"] = "get_student_info";
-        request["username"] = stdusername;
-        qDebug() << stdusername;
+        request["username"] = ::stdusername;
         QJsonDocument doc(request);
         socket.write(doc.toJson());
         socket.waitForBytesWritten();
@@ -41,7 +39,6 @@ void studentpannel::stdloadinfo(){
                 stdfaculty = studentInfo["faculty"].toString();
                 stdcompletedUnits = studentInfo["completed_units"].toString();
                 stdpassword = studentInfo["password"].toString();
-                qDebug()<<stdemail;
             }
         }
     } else {
@@ -53,13 +50,16 @@ void studentpannel::stdloadinfo(){
 
 void studentpannel::showId(){
     ui->stdIDlabel->setText(app()->stdid);
-    this->stdid = app()->stdid;
+    // this->stdid = app()->stdid;
+    stdusername = app()->stdid;
+    stdloadinfo();
 }
 
 
 void studentpannel::on_statsbutton_2_clicked()
 {
     this->close();
-    app()->getstdstat()->show();
+    stdstat = new studentstatus;
+    getstat()->show();
 }
 
