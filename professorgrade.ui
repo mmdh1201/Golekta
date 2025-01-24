@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ProfessorGrade</class>
+ <widget class="QWidget" name="ProfessorGrade">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>ثبت نمره</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QComboBox" name="participantsComboBox"/>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="gradeLineEdit">
+     <property name="placeholderText">
+      <string>نمره</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="submitButton">
+     <property name="text">
+      <string>ارسال</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ShowInfoForm</class>
+ <widget class="QWidget" name="ShowInfoForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>577</width>
+    <height>455</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Show Information</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>571</width>
+     <height>451</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <layout class="QHBoxLayout" name="usernameLayout">
+      <item>
+       <widget class="QLabel" name="usernameLabel">
+        <property name="text">
+         <string>Username:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="usernameValue">
+        <property name="text">
+         <string>admin</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="passwordLayout">
+      <item>
+       <widget class="QLabel" name="passwordLabel">
+        <property name="text">
+         <string>Password:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="passwordLineEdit">
+        <property name="text">
+         <string>1234</string>
+        </property>
+        <property name="echoMode">
+         <enum>QLineEdit::EchoMode::Password</enum>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QPushButton" name="togglePasswordButton">
+      <property name="text">
+       <string>Show Password</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="roleLayout">
+      <item>
+       <widget class="QLabel" name="roleLabel">
+        <property name="text">
+         <string>Role:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="roleValue">
+        <property name="text">
+         <string>admin</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

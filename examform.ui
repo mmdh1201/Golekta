@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ExamForm</class>
+ <widget class="QWidget" name="ExamForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>467</width>
+    <height>418</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>برگزاری آزمون</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QTextEdit" name="examQuestionTextEdit">
+     <property name="placeholderText">
+      <string>سوال آزمون</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="startingLineEdit">
+     <property name="inputMask">
+      <string/>
+     </property>
+     <property name="placeholderText">
+      <string>زمان شروع</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="endingLineEdit">
+     <property name="inputMask">
+      <string/>
+     </property>
+     <property name="placeholderText">
+      <string>زمان پایان</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="submitButton">
+     <property name="text">
+      <string>ارسال</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
