@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>StudentRegisterForm</class>
+ <widget class="QWidget" name="StudentRegisterForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>900</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>ثبت نام ترم</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QTableWidget" name="courseTable">
+     <property name="columnCount">
+      <number>8</number>
+     </property>
+     <property name="horizontalHeaderLabels">
+      <stringlist>
+       <string>آی دی درس</string>
+       <string>نام درس</string>
+       <string>روز های برگزاری</string>
+       <string>تاریخ پایان‌ترم</string>
+       <string>محل برگزاری</string>
+       <string>نام استاد</string>
+       <string>زمان برگزاری</string>
+       <string>ظرفیت</string>
+      </stringlist>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="submitButton">
+     <property name="text">
+      <string>ارسال</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

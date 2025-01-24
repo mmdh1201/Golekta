@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>StudentCourseInfo</class>
+ <widget class="QWidget" name="StudentCourseInfo">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>اطلاعات درس</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLabel" name="courseNameLabel">
+     <property name="text">
+      <string>نام درس:</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="courseMasterLabel">
+     <property name="text">
+      <string>نام استاد(نمره):</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="viewAssignmentButton">
+     <property name="text">
+      <string>مشاهده تکلیف</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="viewExamButton">
+     <property name="text">
+      <string>مشاهده آزمون</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="viewContentButton">
+     <property name="text">
+      <string>مشاهده محتوای کلاسی</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="viewGradeButton">
+     <property name="text">
+      <string>مشاهده نمره</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
